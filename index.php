@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -13,9 +14,11 @@
     	<input type="submit" name="register">
     </form>
 	
-        <?php 
-            include("registrar.php");
-        ?>
+  <?php 
+      include("registrar.php");
+   ?>  
 	
 </body>
 </html>
+
+
