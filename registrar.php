@@ -4,7 +4,9 @@ include("con_db.php");
 
 if ($conex) {
     echo "todo correcto";
-}	
+}else{
+	echo "ha ocurrido";
+}
 	
 if (isset($_POST['register'])) {
     if (strlen($_POST['name']) >= 1 && strlen($_POST['email']) >= 1) {
